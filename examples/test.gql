@@ -1,0 +1,11 @@
+type Project {
+  name: String
+  tagline: String
+  contributors: [User]
+}
+
+{
+  project(name: "GraphQL") {
+    tagline
+  }
+}

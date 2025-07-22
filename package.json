@@ -1,0 +1,36 @@
+{
+  "name": "k-colorable-theme",
+  "displayName": "k-colorable theme",
+  "description": "A beautiful color theme with dark and light variants.",
+  "version": "0.1.0",
+  "publisher": "hasparus",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hasparus/k-colorable.git"
+  },
+  "engines": {
+    "vscode": "^1.25.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "icon": "icon.png",
+  "contributes": {
+    "themes": [
+      {
+        "label": "k-colorable dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/k-colorable-dark.json"
+      },
+      {
+        "label": "k-colorable light",
+        "uiTheme": "vs",
+        "path": "./themes/k-colorable-light.json"
+      }
+    ]
+  },
+  "galleryBanner": {
+    "color": "#1a1a1a",
+    "theme": "dark"
+  }
+}
