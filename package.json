@@ -32,5 +32,8 @@
   "galleryBanner": {
     "color": "#1a1a1a",
     "theme": "dark"
+  },
+  "scripts": {
+    "vsce:publish": "vsce publish"
   }
 }
