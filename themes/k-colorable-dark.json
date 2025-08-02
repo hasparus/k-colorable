@@ -233,7 +233,7 @@
       }
     },
     {
-      "scope": ["entity", "entity.name", "variable.parameter.graphql"],
+      "scope": ["entity", "entity.name"],
       "settings": {
         "foreground": "#F3F4F0"
       }
