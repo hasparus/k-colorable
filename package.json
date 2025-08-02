@@ -1,8 +1,8 @@
 {
   "name": "k-colorable-theme",
   "displayName": "k-colorable theme",
-  "description": "A beautiful color theme with dark and light variants.",
-  "version": "0.2.0",
+  "description": "a theme of pink and green with dark and light variant, based on GitHub Dark and Min Light",
+  "version": "0.2.1",
   "publisher": "hasparus",
   "repository": {
     "type": "git",
