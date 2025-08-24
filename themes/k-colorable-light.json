@@ -322,6 +322,35 @@
       "settings": {
         "foreground": "#990069"
       }
+    },
+    {
+      "scope": ["meta.diff.header.git"],
+      "settings": {
+        "fontStyle": "underline bold"
+      }
+    },
+    {
+      "scope": ["meta.diff.index.git", "meta.diff.range"],
+      "settings": {
+        "foreground": "#6E7557",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": ["meta.diff.header.from-file"],
+      "settings": { "foreground": "#BD0026", "fontStyle": "italic" }
+    },
+    {
+      "scope": ["meta.diff.header.to-file"],
+      "settings": { "foreground": "#558900", "fontStyle": "italic" }
+    },
+    {
+      "scope": ["markup.deleted.diff"],
+      "settings": { "foreground": "#B31D28" }
+    },
+    {
+      "scope": ["markup.inserted.diff"],
+      "settings": { "foreground": "#558900" }
     }
   ]
 }

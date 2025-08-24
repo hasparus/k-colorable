@@ -461,8 +461,7 @@
         "punctuation.definition.deleted"
       ],
       "settings": {
-        "background": "#86181d",
-        "foreground": "#fdaeb7"
+        "foreground": "#f78a8b"
       }
     },
     {
@@ -472,8 +471,13 @@
         "punctuation.definition.inserted"
       ],
       "settings": {
-        "background": "#144620",
-        "foreground": "#85e89d"
+        "foreground": "#c4ec70"
+      }
+    },
+    {
+      "scope": ["meta.diff.header.git"],
+      "settings": {
+        "fontStyle": "underline bold"
       }
     },
     {
@@ -491,16 +495,16 @@
       }
     },
     {
-      "scope": "meta.diff.range",
+      "scope": ["meta.diff.index.git", "meta.diff.range"],
       "settings": {
-        "fontStyle": "bold",
-        "foreground": "#b392f0"
+        "foreground": "#B8BDA8",
+        "fontStyle": "italic"
       }
     },
     {
       "scope": "meta.diff.header",
       "settings": {
-        "foreground": "#79b8ff"
+        "foreground": "#E7E9E2"
       }
     },
     {
