@@ -160,12 +160,6 @@
       }
     },
     {
-      "scope": ["comment", "string.quoted.docstring.multi"],
-      "settings": {
-        "foreground": "#c2c3c5"
-      }
-    },
-    {
       "scope": [
         "constant.numeric",
         "constant.language",
@@ -351,6 +345,17 @@
     {
       "scope": ["markup.inserted.diff"],
       "settings": { "foreground": "#558900" }
+    },
+    {
+      "scope": [
+        "comment",
+        "string.quoted.docstring.multi",
+        "punctuation.definition.comment"
+      ],
+      "settings": {
+        "foreground": "#B8BDA8",
+        "fontStyle": "italic"
+      }
     }
   ]
 }
